@@ -4,6 +4,9 @@ JARROW
 Overview
 --------
 
+**This is a fork that publishes jars to com.cnuernber/jarrow on clojars.**
+
+
 Jarrow is a lightweight java implementation for I/O of data stored
 in formats related to [Apache Arrow](https://arrow.apache.org/).
 Currently, it only has support for the Arrow-related
