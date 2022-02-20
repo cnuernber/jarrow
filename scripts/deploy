@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+mkdir -p target/classes
+
+rm -rf target/classes/*
+
+javac -version
+
+javac -d target/classes -sourcepath java $(find java | grep .*.java)
+
+clojure -X:build

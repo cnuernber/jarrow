@@ -4,7 +4,8 @@ JARROW
 Overview
 --------
 
-**This is a fork that publishes jars to com.cnuernber/jarrow on clojars.**
+**This is a fork that publishes jars to com.cnuernber/jarrow on clojars.  This is LGPL code
+so it is necessary users can replace this jar at a late-binding stage.**
 
 
 Jarrow is a lightweight java implementation for I/O of data stored
@@ -53,7 +54,7 @@ are not fully supported on input:
    * **CATEGORY:** I haven't come across any feather files with category
      column types, and it's not clear to me how to interpret the feather
      format documentation for this type, so it's not supported.
-   * **UINT64:** There's no java primitive or primitive-wrapper type that can 
+   * **UINT64:** There's no java primitive or primitive-wrapper type that can
      represent unsigned 64-bit integers, so it's are not supported.
    * **TIMESTAMP, DATE, TIME:** These values can be read, but the
      type-specific metadata/unit information is not currently available.
@@ -121,5 +122,3 @@ History
 -------
 
 * **Version 1.0 (27 Feb 2020)**: Initial release
-
-
